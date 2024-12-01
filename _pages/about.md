@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>California Institute of Technology</a>. 
+subtitle: <a href='https://www.cms.caltech.edu/'>Computing + Mathematical Sciences Department</a>, Caltech.
 
 profile:
   align: right
