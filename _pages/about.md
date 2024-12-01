@@ -13,6 +13,6 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+I am a senior at the California Institute of Technology studying computer science. My research broadly focuses on developing **machine learning** methods, with a particular focus on **computer vision**, to address critical challenges in **healthcare** and drive **scientific discovery**. My past work includes creating methods to predict the effectiveness of surgical feedback, accelerate MRI reconstruction for high-dimensional imaging, and evaluate the robustness of single-cell image representation models.
 
-Hi, I’m Arushi Gupta, a senior at the California Institute of Technology (Caltech) studying computer science. I am broadly interested in using machine learning to improve healthcare and accelerate scientific discovery.  In the past, I’ve developed machine learning methods, particularly in computer vision, to address problems in ecology, medical imaging, surgical training, and single-cell biology. Most recently, I created a multi-modal method using verbal feedback and surgical video to automatically predict the effectiveness of surgical feedback. 
-
+Throughout my undergraduate research career, I am grateful to have worked with Prof. [Anima Anandkumar](http://tensorlab.cms.caltech.edu/users/anima/) and Prof. [Pietro Perona](https://www.vision.caltech.edu/) from Caltech, Dr. [Alex Lu](https://www.alexluresearch.com/) from Microsoft Research, Dr. [Andrew Hung](https://researchers.cedars-sinai.edu/Andrew.Hung) from Cedars-Sinai, and Prof. [Shreyas Vasanawala](https://profiles.stanford.edu/shreyas-vasanawala) from Stanford.
