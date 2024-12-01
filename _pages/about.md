@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
 subtitle: <a href='https://www.cms.caltech.edu/'>Computing + Mathematical Sciences Department</a>, Caltech.
 
