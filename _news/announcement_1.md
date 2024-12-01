@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Honored to receive the 2024 [Patrick Hummel and Harry Gray Travel Award](https://www.caltechy.org/hummel-gray-award)! This support will fund future conference travel, allowing me to share and discuss my research with the wider academic community.
+I am honored to have received the 2024 [Patrick Hummel and Harry Gray Travel Award](https://www.caltechy.org/hummel-gray-award)! This support will fund future conference travel, allowing me to share and discuss my research with the wider academic community.
