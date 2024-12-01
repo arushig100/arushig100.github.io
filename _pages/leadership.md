@@ -10,7 +10,7 @@ nav_order: 3
 
   <!-- Text Content -->
   <div style="flex: 2;">
-    <h3>Leadership Roles</h3>
+    <h3>Leadership Roles</h4>
     <p>
       I have served in various leadership positions to support the Caltech community:
     </p>
@@ -38,7 +38,7 @@ nav_order: 3
 
 </div>
 
-<h3>Teaching</h3>
+<h3>Teaching</h4>
 <p>
   I have always been passionate about teaching and mentorship. In 2020, I co-founded 
   <strong><a href="https://www.algostem.org/">AlgoSTEM</a></strong>, a non-profit dedicated to providing free STEM education to all. 
@@ -48,7 +48,7 @@ nav_order: 3
   <strong>100k+ collective enrollments</strong>), host camps, and organize a high school math competition.
 </p>
 <p>
-  At Caltech, I’ve pursued my passion for teaching by serving as a Teaching Assistant for several courses, specifically:
+  At Caltech, I’ve pursued my passion for teaching by serving as a **Teaching Assistant** for several courses, specifically:
 </p>
 <ul>
   <li><strong>CS 38: Algorithms</strong> (Spring 2023, Spring 2024)</li>
