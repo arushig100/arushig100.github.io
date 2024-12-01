@@ -2,7 +2,7 @@
 layout: page
 permalink: /activities/
 title: Activities
-description: Leadership and Teaching
+description: 
 nav: true
 nav_order: 3
 ---
@@ -10,7 +10,7 @@ nav_order: 3
 
   <!-- Text Content -->
   <div style="flex: 2;">
-    <h4>Leadership Roles</h4>
+    <h4>Leadership</h4>
     <p>
       I have served in various leadership positions to support the Caltech community:
     </p>
