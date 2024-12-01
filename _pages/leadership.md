@@ -1,12 +1,12 @@
 ---
 layout: page
 permalink: /activities/
-title: activities
-description: Leadership, Community Service, and Teaching
+title: Activities
+description: leadership, community service, and teaching
 nav: true
 nav_order: 3
 ---
-<div style="display: flex; align-items: flex-start; gap: 0px;">
+<div style="display: flex; align-items: flex-start; gap: 20px;">
 
   <!-- Text Content -->
   <div style="flex: 2;">
