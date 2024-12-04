@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am excited to announce that our latest paper, "Multi-Modal Self-Supervised Learning for Surgical Feedback Effectiveness Assessment," is now available on [arXiv](https://arxiv.org/abs/2411.10919)! 
+Our latest paper, "Multi-Modal Self-Supervised Learning for Surgical Feedback Effectiveness Assessment," is now available on [arXiv](https://arxiv.org/abs/2411.10919)! 
