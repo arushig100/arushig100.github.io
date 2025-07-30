@@ -5,7 +5,7 @@
 @article{guptammssl,
   title={Multi-Modal Self-Supervised Learning for Surgical Feedback Effectiveness Assessment},
   author={Gupta*, Arushi and Kocielnik*, Rafal D. and Wang, Jiayun and Nasriddinov, Firdavs and Yang, Cherine and Wong, Elyssa and Anandkumar, Anima and Hung, Andrew J.},
-  journal={Machine Learning for Health (ML4H) Symposium},
+  journal={Machine Learning for Health Symposium (PMLR)},
   year={2024},
   arxiv={2411.10919},
   award={The paper won the best paper award at 2024 Machine Learning for Health Conference.},
@@ -29,11 +29,25 @@
 @article{nasriddinovfeedback,
   title={Automating Feedback Analysis in Surgical Training: Detection, Categorization, and Assessment},
   author={Nasriddinov*, Firdavs and Kocielnik*, Rafal D. and Gupta, Arushi and Yang, Cherine and Wong, Elyssa and Anandkumar, Anima and Hung, Andrew},
-  journal={Machine Learning for Health (ML4H) Symposium},
+  journal={Machine Learning for Health Symposium (PMLR)},
   year={2024},
   preview={feedback_text.png},
   abstract={This work introduces the first framework for reconstructing surgical dialogue from unstructured real-world recordings, which is crucial for characterizing teaching tasks. In surgical training, the formative verbal feedback that trainers provide to trainees during live surgeries is crucial for ensuring safety, correcting behavior immediately, and facilitating long-term skill acquisition. However, analyzing and quantifying this feedback is challenging due to its unstructured and specialized nature. Automated systems are essential to manage these complexities at scale, allowing for the creation of structured datasets that enhance feedback analysis and improve surgical education. Our framework integrates voice activity detection, speaker diarization, and automated speech recognition, with a novel enhancement that 1) removes hallucinations (non-existent utterances generated during speech recognition fueled by noise in the operating room) and 2) separates speech from trainers and trainees using few-shot voice samples. These aspects are vital for reconstructing accurate surgical dialogues and understanding the roles of operating room participants. Using data from 33 real-world surgeries, we demonstrated the system’s capability to reconstruct surgical teaching dialogues and detect feedback instances effectively (F1 score of 0.79+/-0.07. Moreover, our hallucination removal step improves feedback detection performance by ~14%. Evaluation on downstream clinically relevant tasks of predicting Behavioral Adjustment of trainees and classifying Technical feedback, showed performances comparable to manual annotations with F1 scores of 0.82+/-0.03 and 0.81+/-0.03 respectively. These results highlight the effectiveness of our framework in supporting clinically relevant tasks and improving over manual methods.
   },
   arxiv={2412.00760}
 }
+
+
+@article{guptabackground2025,
+  title={Representation Learning Methods for Single-Cell Microscopy are Confounded by Background Cells},
+  author={Gupta, Arushi and Moses, Alan and Lu, Alex X},
+  journal={bioRxiv},
+  year={2025},
+  pages={2025.06.26.661577},
+  publisher={Cold Spring Harbor Laboratory},
+  preview={background_cells.png},
+  abstract={Deep learning models are widely used to extract feature representations from microscopy images. While these models are used for single-cell analyses, such as studying single-cell heterogeneity, they typically operate on image crops centered on individual cells with background information present, such as other cells, and it remains unclear to what extent the conclusions of single-cell analyses may be altered by this. In this paper, we introduce a novel evaluation framework that directly tests the robustness of crop-based models to background information. We create synthetic single-cell crops where the center cell's localization is fixed and the background is swapped--e.g., with backgrounds from other protein localizations. We measure how different backgrounds affect localization classification performance using model-extracted features. Applying this framework to three leading models for single-cell microscopy for analyzing yeast protein localization, we find that all lack robustness to background cells. Localization classification accuracy drops by up to 15.8% when background cells differ in localization from the center cell compared to when the localization is the same. We further show that this lack of robustness can affect downstream biological analyses, such as the task of estimating proportions of cells for proteins with single-cell heterogeneity in localization. Ultimately, our framework provides a concrete way to evaluate single-cell model robustness to background information and highlights the importance of learning background-invariant features for reliable single-cell analysis.},
+  url={https://www.biorxiv.org/content/10.1101/2025.06.26.661577v1}
+}
+
 

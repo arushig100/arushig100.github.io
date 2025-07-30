@@ -22,9 +22,6 @@ nav_order: 3
       <li><strong>Campus Representative, <a href="https://www.aspirations.org/aic-campus-reps">National Center for Women & Information Technology (NCWIT)</a></strong>:  
         I have organized social events for undergraduate women in engineering and provided individual mentorship to high school girls interested in pursuing computer science.
       </li>
-      <li><strong>President, Caltech Debate Society</strong>:  
-        I hosted discussions on political topics and current events for undergraduate and graduate participants.
-      </li>
     </ul>
   </div>
 
@@ -51,6 +48,7 @@ nav_order: 3
   At Caltech, I’ve pursued my passion for teaching by serving as a Teaching Assistant for several courses, specifically:
 </p>
 <ul>
+  <li><strong>CMS 144: Networks: Structure & Economics</strong> (Winter 2025)</li>
   <li><strong>CS 38: Algorithms</strong> (Spring 2023, Spring 2024)</li>
   <li><strong>CS 21: Decidability & Tractability</strong> (Winter 2023)</li>
   <li><strong>ACM 104: Applied Linear Algebra</strong> (Fall 2023)</li>
