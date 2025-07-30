@@ -2,6 +2,22 @@
 ---
 @string{aps = {American Physical Society,}}
 
+
+@article{guptabackground2025,
+  title={Representation Learning Methods for Single-Cell Microscopy are Confounded by Background Cells},
+  author={Gupta, Arushi and Moses, Alan and Lu, Alex X},
+  journal={bioRxiv},
+  year={2025},
+  pages={2025.06.26.661577},
+  publisher={Cold Spring Harbor Laboratory},
+  preview={background_cells.png},
+  abstract={Deep learning models are widely used to extract feature representations from microscopy images. While these models are used for single-cell analyses, such as studying single-cell heterogeneity, they typically operate on image crops centered on individual cells with background information present, such as other cells, and it remains unclear to what extent the conclusions of single-cell analyses may be altered by this. In this paper, we introduce a novel evaluation framework that directly tests the robustness of crop-based models to background information. We create synthetic single-cell crops where the center cell's localization is fixed and the background is swapped--e.g., with backgrounds from other protein localizations. We measure how different backgrounds affect localization classification performance using model-extracted features. Applying this framework to three leading models for single-cell microscopy for analyzing yeast protein localization, we find that all lack robustness to background cells. Localization classification accuracy drops by up to 15.8% when background cells differ in localization from the center cell compared to when the localization is the same. We further show that this lack of robustness can affect downstream biological analyses, such as the task of estimating proportions of cells for proteins with single-cell heterogeneity in localization. Ultimately, our framework provides a concrete way to evaluate single-cell model robustness to background information and highlights the importance of learning background-invariant features for reliable single-cell analysis.},
+  pdf={https://www.biorxiv.org/content/10.1101/2025.06.26.661577v1.full.pdf},
+   selected={true}
+}
+
+
+
 @article{guptammssl,
   title={Multi-Modal Self-Supervised Learning for Surgical Feedback Effectiveness Assessment},
   author={Gupta*, Arushi and Kocielnik*, Rafal D. and Wang, Jiayun and Nasriddinov, Firdavs and Yang, Cherine and Wong, Elyssa and Anandkumar, Anima and Hung, Andrew J.},
@@ -36,19 +52,4 @@
   },
   arxiv={2412.00760}
 }
-
-
-@article{guptabackground2025,
-  title={Representation Learning Methods for Single-Cell Microscopy are Confounded by Background Cells},
-  author={Gupta, Arushi and Moses, Alan and Lu, Alex X},
-  journal={bioRxiv},
-  year={2025},
-  pages={2025.06.26.661577},
-  publisher={Cold Spring Harbor Laboratory},
-  preview={background_cells.png},
-  abstract={Deep learning models are widely used to extract feature representations from microscopy images. While these models are used for single-cell analyses, such as studying single-cell heterogeneity, they typically operate on image crops centered on individual cells with background information present, such as other cells, and it remains unclear to what extent the conclusions of single-cell analyses may be altered by this. In this paper, we introduce a novel evaluation framework that directly tests the robustness of crop-based models to background information. We create synthetic single-cell crops where the center cell's localization is fixed and the background is swapped--e.g., with backgrounds from other protein localizations. We measure how different backgrounds affect localization classification performance using model-extracted features. Applying this framework to three leading models for single-cell microscopy for analyzing yeast protein localization, we find that all lack robustness to background cells. Localization classification accuracy drops by up to 15.8% when background cells differ in localization from the center cell compared to when the localization is the same. We further show that this lack of robustness can affect downstream biological analyses, such as the task of estimating proportions of cells for proteins with single-cell heterogeneity in localization. Ultimately, our framework provides a concrete way to evaluate single-cell model robustness to background information and highlights the importance of learning background-invariant features for reliable single-cell analysis.},
-  pdf={https://www.biorxiv.org/content/10.1101/2025.06.26.661577v1.full.pdf},
-   selected={true}
-}
-
 
