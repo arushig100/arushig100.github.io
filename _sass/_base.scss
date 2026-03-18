@@ -4,6 +4,11 @@
 
 // Typography
 
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  letter-spacing: -0.01em;
+}
+
 p,
 h1,
 h2,
@@ -17,6 +22,19 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Georgia, serif;
+  letter-spacing: -0.02em;
+}
+
+.post-title {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 700;
+  letter-spacing: -0.03em;
 }
 
 hr {
@@ -383,12 +401,13 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 1.6rem;
+    letter-spacing: 0.3em;
 
     a {
       i::before {
-        color: var(--global-text-color);
-        transition-property: all 0.2s ease-in-out;
+        color: var(--global-text-color-light);
+        transition: color 0.2s ease-in-out;
       }
 
       &:hover {
@@ -752,20 +771,32 @@ footer.sticky-bottom {
       .links {
         a.btn {
           color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
+          border: 1px solid var(--global-theme-color);
+          padding-left: 0.85rem;
+          padding-right: 0.85rem;
+          padding-top: 0.2rem;
+          padding-bottom: 0.2rem;
           margin-left: 0;
+          border-radius: 20px;
+          font-size: 0.75rem;
+          letter-spacing: 0.03em;
+          transition: all 0.2s ease;
 
           &:hover {
-            color: var(--global-theme-color);
+            color: var(--global-hover-text-color);
+            background-color: var(--global-theme-color);
             border-color: var(--global-theme-color);
           }
         }
         a.award.btn {
-          border-color: var(--global-highlight-color);
+          border-color: #c9a84c;
+          color: #c9a84c;
+
+          &:hover {
+            color: white;
+            background-color: #c9a84c;
+            border-color: #c9a84c;
+          }
         }
       }
 
@@ -788,7 +819,7 @@ footer.sticky-bottom {
         font-size: 0.875rem;
         max-height: 0px;
         overflow: hidden;
-        text-align: justify;
+        text-align: left;
         transition-property: 0.15s ease;
         -moz-transition: 0.15s ease;
         -ms-transition: 0.15s ease;
@@ -817,18 +848,27 @@ footer.sticky-bottom {
       }
 
       div.abstract.hidden {
-        border: dashed 1px var(--global-bg-color);
+        border: none;
+        border-left: 3px solid var(--global-bg-color);
+        border-radius: 0 6px 6px 0;
+        background-color: transparent;
       }
 
       div.abstract.hidden.open {
-        border-color: var(--global-text-color);
+        border-left-color: var(--global-theme-color);
+        background-color: rgba(230, 59, 122, 0.04);
+        padding: 0.75rem 1rem;
       }
     }
     div.award.hidden {
-      border: dashed 1px var(--global-bg-color);
+      border: none;
+      border-left: 3px solid var(--global-bg-color);
+      border-radius: 0 6px 6px 0;
     }
     div.award.hidden.open {
-      border-color: var(--global-highlight-color);
+      border-left-color: #c9a84c;
+      background-color: rgba(201, 168, 76, 0.06);
+      padding: 0.75rem 1rem;
     }
   }
 }
@@ -1146,6 +1186,15 @@ ninja-keys::part(ninja-input) {
 
 ninja-keys::part(ninja-input-wrapper) {
   background: var(--global-bg-color);
+}
+
+// news table — override table-dark that gets applied via localStorage
+.news table {
+  color: var(--global-text-color) !important;
+
+  th, td {
+    color: var(--global-text-color) !important;
+  }
 }
 
 // newsletter

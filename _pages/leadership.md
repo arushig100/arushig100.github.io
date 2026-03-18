@@ -3,8 +3,8 @@ layout: page
 permalink: /activities/
 title: Activities
 description: 
-nav: true
-nav_order: 3
+nav: false
+nav_order: 2
 ---
 <div style="display: flex; align-items: flex-start; gap: 20px;">
 
