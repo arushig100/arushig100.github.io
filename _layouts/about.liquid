@@ -83,10 +83,10 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <div style="max-width: 680px; margin: 0 auto;">
-        <h2 class="home-section" style="margin-top: 3.5rem;">
-          <a href="{{ '/publications/' | relative_url }}" style="color: inherit; text-decoration: none;">Selected Publications</a>
-        </h2>
-        {% include selected_papers.liquid %}
+        <h2 id="publications" class="home-section" style="margin-top: 3.5rem;">Publications</h2>
+        <div class="publications">
+          {% bibliography --group_by none %}
+        </div>
       </div>
     {% endif %}
 

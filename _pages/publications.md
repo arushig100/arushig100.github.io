@@ -3,7 +3,8 @@ layout: page
 permalink: /publications/
 title: Publications
 description: 
-nav: true
+nav: false
+redirect: /#publications
 nav_order: 1
 ---
 
