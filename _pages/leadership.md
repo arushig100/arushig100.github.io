@@ -4,6 +4,7 @@ permalink: /activities/
 title: Activities
 description: 
 nav: false
+sitemap: false
 nav_order: 2
 ---
 <div style="display: flex; align-items: flex-start; gap: 20px;">

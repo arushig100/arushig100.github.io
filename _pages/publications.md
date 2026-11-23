@@ -5,6 +5,7 @@ title: Publications
 description: 
 nav: false
 redirect: /#publications
+sitemap: false
 nav_order: 1
 ---
 
